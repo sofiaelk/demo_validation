@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "World universities and domains",
+  "type": "object",
+  "properties": {
+
+    "web_pages": {
+      "type": "array",
+      "items": {
+        "type":  ["null", "string"]
+      }
+    },
+
+    "name": {
+      "type":   ["null", "string"]
+    },
+
+    "alpha_two_code": {
+      "type":   ["null", "string"]
+    },
+
+    "state­province": {
+      "type":   ["null", "string"]
+    },
+
+    "domains": {
+      "type": "array",
+      "items": {
+        "type":  ["null", "string"]
+      }
+    },
+
+    "country": {
+      "type":  ["null", "string"]
+    },
+    "required":[
+      "web_pages",
+      "name",
+      "alpha_two_code",
+      "state­province",
+      "domains",
+      "country"
+    ],
+    "additionalProperties":false
+  }
+}
