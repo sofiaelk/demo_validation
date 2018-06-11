@@ -1,4 +1,5 @@
-# demo_validation
+# start by running mainClass 
+
 Maven project for data validation, what it does : 
   - Reads URL of json file from input,
   - Counts number of json objects in the file,
@@ -14,4 +15,7 @@ The tests that were considered for this project, and were manually tested during
   - test with other type of file
   - test with all parameters "null", and see if the correct value of occurrences was displayed for each one
   - test with invalid URL
+ 
+ 
+ Could write unit tests with JUnit. 
  
